@@ -1,41 +1,37 @@
 # Data-Structures
 Explanation of data structures in C++ and JAVA
 # 1) Linked List:
-A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
+A linked list is a **linear data structure**, in which the elements are not stored at contiguous memory locations.
 
 The consecutive elements are connected by pointers.
 
-The size of a linked list is not fixed.
-
-Memory is not wasted but extra memory is consumed as it also uses pointers to keep track of the next successive node.
-
 # The various types of linked lists are as follows:
 
-1)Singly Linked List: It is the most basic linked list in which traversal is unidirectional i.e. from the head node to the last node.
+**1)_Singly Linked List:_** It is the most basic linked list in which traversal is unidirectional i.e. from the head node to the last node.
 
-2)Doubly Linked List: In this linked list, traversal can be done in both ways, and hence it requires an extra pointer.
+**2)_Doubly Linked List:_** In this linked list, traversal can be done in both ways, and hence it requires an extra pointer.
 
-3)Circular Linked List: This linked list is unidirectional but in this list, the last node points to the first i.e. the head node and hence it becomes circular in nature.
+**3)_Circular Linked List:_** This linked list is unidirectional but in this list, the last node points to the first i.e. the head node and hence it becomes circular in nature.
 
-4)Circular Doubly Linked List: The circular doubly linked list is a combination of the doubly linked list and the circular linked list. It means that this linked list is bidirectional and contains two pointers and the last pointer points to the first pointer.
+**4)_Circular Doubly Linked List:_** The circular doubly linked list is a combination of the doubly linked list and the circular linked list. It means that this linked list is bidirectional and contains two pointers and the last pointer points to the first pointer.
 
 # Linked Lists are most commonly used for:
 Linked Lists are mostly used because of their effective insertion and deletion (take less time complexity as compared to the array data structure). 
 
-used to implement a stack, queues, and other abstract data structures.   
+used to implement a **_stack, queues, and other abstract data structures_**.   
 
 # Applications of Linked Lists:
-It is used for the various representations of trees and graphs.
+It is used for the various representations of **_trees and graphs_**.
 
-It is used in dynamic memory allocation( linked list of free blocks).
+It is used in **_dynamic memory allocation_**( linked list of free blocks).
 
-It is used for representing sparse matrices.
+It is used for representing **_sparse matrices_**.
 
-It is used for the manipulation of polynomials.
+It is used for the **_manipulation of polynomials_**.
 
-It is also used for performing arithmetic operations on long integers.
+It is also used for performing **_arithmetic operations on long integers_**.
 
-It is used for finding paths in networks.
+It is used for **_finding paths in networks_**.
 
 # Applications of Linked Lists in real world: 
 The list of songs in the music player are linked to the previous and next songs. 
@@ -50,9 +46,9 @@ In mobile phones, we save the contacts of the people. The newly entered contact 
 The modifications that we are made in the documents are actually created as nodes in doubly linked list. We can simply use the undo option by pressing Ctrl+Z to modify the contents. It is done by the functionality of linked list.
 
 # Advantages of Linked Lists:
-Insertion and deletion in linked lists are very efficient.
+**_Insertion and deletion in linked lists are very efficient_**.
 
-Linked list can be expanded in constant time.
+Linked list **_can be expanded in constant time_**.
 
 For implementation of stacks and queues and for representation of trees and graphs.
 
@@ -60,13 +56,13 @@ Linked lists are used for dynamic memory allocation which means effective memory
 
 # Disadvantages of Linked Lists:
 
-Use of pointers is more in linked lists hence, complex and requires more memory.
+Use of pointers is more in linked lists hence, **_complex and requires more memory_**.
 
 Searching an element is costly and requires O(n) time complexity.
 
 Traversing is more time consuming and reverse traversing is not possible in singly linked lists.
 
-Random access is not possible due to dynamic memory allocation.
+**_Random access is not possible_** due to dynamic memory allocation.
 
 # 2) Stack and Queue:
 
@@ -75,46 +71,44 @@ Stack is a linear data structure which follows a particular order in which the o
 
 # Primary Stack Operations:
 
-void push(int data): When this operation is performed, an element is inserted into the stack.
+**_void push(int data):_** When this operation is performed, an element is inserted into the stack.
 
-int pop():   When this operation is performed, an element is removed from the top of the stack and is returned.
+**_int pop():_**   When this operation is performed, an element is removed from the top of the stack and is returned.
 
 # Auxiliary Stack Operations:
 
-int top(): This operation will return the last inserted element that is at the top without removing it.
+**_int top():_** This operation will return the last inserted element that is at the top without removing it.
 
-int size(): This operation will return the size of the stack i.e. the total number of elements present in the stack.
+**_int size():_** This operation will return the size of the stack i.e. the total number of elements present in the stack.
 
-int isEmpty(): This operation indicates whether the stack is empty or not.
+**_int isEmpty():_** This operation indicates whether the stack is empty or not.
 
-int isFull(): This operation indicates whether the stack is full or not.
+_**int isFull():**_ This operation indicates whether the stack is full or not.
 
 # Types of Stacks:
 
-Register Stack: This type of stack is also a memory element present in the memory unit and can handle a small amount of data only. The height of the register stack is always limited as the size of the register stack is very small compared to the memory.
+**_Register Stack:_** This type of stack is also a memory element present in the memory unit and can handle a small amount of data only. The height of the register stack is always limited as the size of the register stack is very small compared to the memory.
 
-Memory Stack: This type of stack can handle a large amount of memory data. The height of the memory stack is flexible as it occupies a large amount of memory data. 
-What is meant by Top of the Stack?
+**_Memory Stack:_** This type of stack can handle a large amount of memory data. The height of the memory stack is flexible as it occupies a large amount of memory data. 
 
-The pointer through which the elements are accessed, inserted, and deleted in the stack is called the top of the stack. It is the pointer to the topmost element of the stack.
 
 # Application of Stack Data Structure:
 
-Stack is used for evaluating expression with operands and operations.
+Stack is used for **_evaluating expression with operands and operations_**.
 
-Matching tags in HTML and XML
+**_Matching tags in HTML and XML_**.
 
-Undo function in any text editor.
+**_Undo function_** in any text editor.
 
-Infix to Postfix conversion.
+**_Infix to Postfix_** conversion.
 
-Stacks are used for backtracking and parenthesis matching.
+Stacks are used for **_backtracking and parenthesis matching_**.
 
-Stacks are used for conversion of one arithmetic notation to another arithmetic notation.
+Stacks are used for **_conversion of one arithmetic notation_** to another arithmetic notation.
 
-Stacks are useful for function calls, storing the activation records and deleting them after returning from the function. It is very useful in processing the function calls.
+Stacks are useful for **_function calls_**, storing the **_activation records and deleting them_** after returning from the function. It is very useful in processing the function calls.
 
-Stacks help in reversing any set of data or strings.
+Stacks help in **_reversing_** any set of data or strings.
 
 # Application of Stack in real life:
 
@@ -132,76 +126,76 @@ YouTube downloads and Notifications are also shown in LIFO format(the latest app
 
 # Advantages of Stack:
 
-Stack helps in managing data that follows the LIFO technique.
+Stack helps in managing data that follows the **_LIFO_** technique.
 
-Stacks are be used for systematic Memory Management.
+Stacks are be used for **_systematic Memory Management_**.
 
-It is used in many virtual machines like JVM.
+It is used in many virtual machines like **_JVM_**.
 
 When a function is called, the local variables and other function parameters are stored in the stack and automatically destroyed once returned from the function. Hence, efficient function management.
 
-Stacks are more secure and reliable as they do not get corrupted easily.
+Stacks are more **_secure and reliable_** as they do not get corrupted easily.
 
-Stack allows control over memory allocation and deallocation.
+Stack allows **_control over memory allocation and deallocation_**.
 
-Stack cleans up the objects automatically.
+Stack **_cleans up the objects_** automatically.
 
 # Disadvantages of Stack: 
 
-Stack memory is of limited size.
+Stack memory is of **_limited size_**.
 
 The total of size of the stack must be defined before.
 
-If too many objects are created then it can lead to stack overflow.
+If too many objects are created then it can **_lead to stack overflow_**.
 
 Random accessing is not possible in stack.
 
-If the stack falls outside the memory it can lead to abnormal termination.
+If the **_stack falls outside the memory it can lead to abnormal termination_**.
 
 # Queue:
 A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). 
 
 # Primary Queue Operations:
 
-void enqueue(float value): When this operation is performed, an element is inserted in the queue at the end i.e. at the rear end.
+**_void enqueue(float value):_** When this operation is performed, an element is inserted in the queue at the end i.e. at the rear end.
 
-int dequeue():   When this operation is performed, an element is removed from the front end and is returned.
+**_int dequeue():_**   When this operation is performed, an element is removed from the front end and is returned.
 
 # Auxiliary Queue Operations:
 
-int front(): This operation will return the element at the front without removing it.
+**_int front():_** This operation will return the element at the front without removing it.
 
-int rear(): This operation will return the element at the rear without removing it.
+**_int rear():_** This operation will return the element at the rear without removing it.
 
-int isEmpty(): This operation indicates whether the queue is empty or not.
+**_int isEmpty():_** This operation indicates whether the queue is empty or not.
 
-int size(): This operation will return the size of the queue i.e. the total number of elements.
+**_int size():_** This operation will return the size of the queue i.e. the total number of elements.
 
 # Types of Queues:
 
-Simple Queue: Simple queue also known as a linear queue is the most basic version of a queue. Here, insertion of an element i.e. the Enqueue operation takes place at the rear end and removal of an element i.e. the Dequeue operation takes place at the front end.
+**_Simple Queue:_** Simple queue also known as a linear queue is the most basic version of a queue. Here, insertion of an element i.e. the Enqueue operation takes place at the rear end and removal of an element i.e. the Dequeue operation takes place at the front end.
 
-Circular Queue:  In a circular queue, the element of the queue act as a circular ring. The working of a circular queue is similar to the linear queue except for the fact that the last element is connected to the first element. Its advantage is that the memory is utilized in a better way. This is because if there is an empty space i.e. if no element is present at a certain position in the queue, then an element can be easily added at that position.
+**_Circular Queue:_**  In a circular queue, the element of the queue act as a circular ring. The working of a circular queue is similar to the linear queue except for the fact that the last element is connected to the first element. Its advantage is that the memory is utilized in a better way. This is because if there is an empty space i.e. if no element is present at a certain position in the queue, then an element can be easily added at that position.
 
-Priority Queue: This queue is a special type of queue. Its specialty is that it arranges the elements in a queue based on some priority. The priority can be something where the element with the highest value has the priority so it creates a queue with decreasing order of values. The priority can also be such that the element with the lowest value gets the highest priority so in turn it creates a queue with increasing order of values.
+**_Priority Queue:_** This queue is a special type of queue. Its specialty is that it arranges the elements in a queue based on some priority. The priority can be something where the element with the highest value has the priority so it creates a queue with decreasing order of values. The priority can also be such that the element with the lowest value gets the highest priority so in turn it creates a queue with increasing order of values.
 
-Dequeue: Dequeue is also known as Double Ended Queue. As the name suggests double ended, it means that an element can be inserted or removed from both the ends of the queue unlike the other queues in which it can be done only from one end. Because of this property it may not obey the First In First Out property. 
+**_Dequeue:_** Dequeue is also known as Double Ended Queue. As the name suggests double ended, it means that an element can be inserted or removed from both the ends of the queue unlike the other queues in which it can be done only from one end. Because of this property it may not obey the First In First Out property. 
 
 # Implementation of Queue:
 
-Sequential allocation: A queue can be implemented using an array. It can organize a limited number of elements.
+**_Sequential allocation:_** A queue can be implemented using an array. It can organize a limited number of elements.
 
-Linked list allocation:  A queue can be implemented using a linked list. It can organize an unlimited number of elements.
+**_Linked list allocation:_**  A queue can be implemented using a linked list. It can organize an unlimited number of elements.
 
 # Applications of Queue:
 
-Multi programming: Multi programming means when multiple programs are running in the main memory. It is essential to organize these multiple programs and these multiple programs are organized as queues. 
+**_Multi programming:_** Multi programming means when multiple programs are running in the main memory. It is essential to organize these multiple programs and these multiple programs are organized as queues. 
 
-Network: In a network, a queue is used in devices such as a router or a switch. another application of a queue is a mail queue which is a directory that stores data and controls files for mail messages.
+**_Network:_** In a network, a queue is used in devices such as a router or a switch. another application of a queue is a mail queue which is a directory that stores data and controls files for mail messages.
 
-Job Scheduling: The computer has a task to execute a particular number of jobs that are scheduled to be executed one after another. These jobs are assigned to the processor one by one which is organized using a queue.
+**_Job Scheduling:_** The computer has a task to execute a particular number of jobs that are scheduled to be executed one after another. These jobs are assigned to the processor one by one which is organized using a queue.
 
-Shared resources: Queues are used as waiting lists for a single shared resource.
+**_Shared resources:_** Queues are used as waiting lists for a single shared resource.
 
 # Real-time application of Queue:
 
@@ -217,7 +211,7 @@ Waiting time of each customer at call centers.
 
 # Advantages of Queue:
 
-A large amount of data can be managed efficiently with ease.
+A **_large amount of data can be managed efficiently_** with ease.
 
 Operations such as insertion and deletion can be performed with ease as it follows the first in first out rule.
 
